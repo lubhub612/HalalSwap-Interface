@@ -121,7 +121,6 @@ const App: React.FC = () => {
                   <Switch>
                     <Route exact path='/'>
                       <PageLayout>
-                      {/*}  <LandingPage />  */}
                       <FarmPage />
                       </PageLayout>
                     </Route>
@@ -129,65 +128,7 @@ const App: React.FC = () => {
                       <PageLayout>
                         <FarmPage />
                       </PageLayout>
-                    </Route>
-                   {/*} <Route exact path='/swap'>
-                      <PageLayout>
-                        <SwapPage />
-                      </PageLayout>
-                    </Route>
-                    <Route exact path='/pools'>
-                      <PageLayout>
-                        <PoolsPage />
-                      </PageLayout>
-                    </Route>
-                    <Route exact path='/farm'>
-                      <PageLayout>
-                        <FarmPage />
-                      </PageLayout>
-                    </Route>
-                    <Route exact path='/dragons'>
-                      <PageLayout>
-                        <DragonPage />
-                      </PageLayout>
-                    </Route>
-                    <Route exact path='/convert'>
-                      <PageLayout>
-                        <ConvertQUICKPage />
-                      </PageLayout>
-                    </Route>
-                    <Route exact path='/prdt'>
-                      <PageLayout name='prdt'>
-                        <PrdtPage />
-                      </PageLayout>
-                    </Route>
-                    <Route exact path='/analytics'>
-                      <PageLayout>
-                        <AnalyticsHeader />
-                        <AnalyticsOverview />
-                      </PageLayout>
-                    </Route>
-                    <Route exact path='/analytics/tokens'>
-                      <PageLayout>
-                        <AnalyticsHeader />
-                        <AnalyticsTokens />
-                      </PageLayout>
-                    </Route>
-                    <Route exact path='/analytics/pairs'>
-                      <PageLayout>
-                        <AnalyticsHeader />
-                        <AnalyticsPairs />
-                      </PageLayout>
-                    </Route>
-                    <Route exact path='/analytics/token/:id'>
-                      <PageLayout>
-                        <AnalyticsTokenDetails />
-                      </PageLayout>
-                    </Route>
-                    <Route exact path='/analytics/pair/:id'>
-                      <PageLayout>
-                        <AnalyticsPairDetails />
-                      </PageLayout>
-                </Route>  */}
+                    </Route>   
                   </Switch>
                 </Web3ReactManager>
               </Gelato>

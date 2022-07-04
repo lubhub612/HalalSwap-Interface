@@ -43,12 +43,7 @@ const FarmPage: React.FC = () => {
       text: t('lpMining'),
       onClick: () => setFarmIndex(GlobalConst.farmIndex.LPFARM_INDEX),
       condition: farmIndex === GlobalConst.farmIndex.LPFARM_INDEX,
-    },
-  //  {
-    //  text: t('dualMining'),
-    //  onClick: () => setFarmIndex(GlobalConst.farmIndex.DUALFARM_INDEX),
-    //  condition: farmIndex === GlobalConst.farmIndex.DUALFARM_INDEX,
-   // },
+    }
   ];
 
   return (

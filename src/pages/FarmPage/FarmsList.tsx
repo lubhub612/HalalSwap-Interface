@@ -453,37 +453,8 @@ const FarmsList: React.FC<FarmsListProps> = ({ bulkPairs, farmIndex }) => {
             </Box>
           ))}
          </Box>  
-                )}   
-  {/*     {(farmIndex === GlobalConst.farmIndex.LPFARM_INDEX && !stakingInfos) ||
-        (farmIndex === GlobalConst.farmIndex.DUALFARM_INDEX &&
-          !stakingDualInfos && (
-            <>
-              <Skeleton width='100%' height={100} />
-              <Skeleton width='100%' height={100} />
-              <Skeleton width='100%' height={100} />
-              <Skeleton width='100%' height={100} />
-              <Skeleton width='100%' height={100} />
-            </>
-          ))}
-        {farmIndex === GlobalConst.farmIndex.LPFARM_INDEX &&
-        stakingInfos &&
-        stakingInfos.map((info: StakingInfo, index) => (
-          <FarmCard
-            key={index}
-            stakingInfo={info}
-            stakingAPY={getPoolApy(info?.pair)}
-            isLPFarm={true}
-          />
-        ))}
-      {farmIndex === GlobalConst.farmIndex.DUALFARM_INDEX &&
-        stakingDualInfos &&
-        stakingDualInfos.map((info: DualStakingInfo, index) => (
-          <FarmCard
-            key={index}
-            stakingInfo={info}
-            stakingAPY={getPoolApy(info?.pair)}
-          />
-        ))}    */}
+      )}   
+
       <div ref={loadMoreRef} />  
     </>
   );

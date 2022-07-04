@@ -52,43 +52,15 @@ const Header: React.FC = () => {
   const tabletWindowSize = useMediaQuery(theme.breakpoints.down('sm'));
   const mobileWindowSize = useMediaQuery(theme.breakpoints.down('xs'));
   const toggleWalletModal = useWalletModalToggle();
+  
+
+
   const menuItems = [
-  //  {
-      //link: '/swap',
-     // text: t('swap'),
-     // id: 'swap-page-link',
-   // },
-   // {
-    //  link: '/pools',
-    //  text: t('pool'),
-    //  id: 'pools-page-link',
-   // }, 
     {
       link: '/farm',
       text: t('farm'),
       id: 'farm-page-link',
-    },
- //   {
-   //   link: '/dragons',
-   //   text: t('dragonLair'),
-   //   id: 'dragons-page-link',
-  //  },
-  //  {
-  //    link: '/convert',
-  //    text: t('convert'),
-  //    id: 'convert-quick',
-  //  },
-  //  {
-  //    link: '/prdt',
-  //    text: 'Predictions',
-  //    id: 'prdt-page-link',
-  //    isNew: true,
-  //  },
-  //  {
-  //    link: '/analytics',
-   //   text: t('analytics'),
-   //   id: 'analytics-page-link',
-   // },  
+    }  
   ];
 
   const outLinks: any[] = [
