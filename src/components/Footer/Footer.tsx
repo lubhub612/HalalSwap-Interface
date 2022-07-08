@@ -8,6 +8,7 @@ const Footer: React.FC = () => {
 
   return (
     <Box className='footer'>
+    {/*  <QuickIcon />  */}
       <p>© {copyrightYear} HalalSwap.</p>
     </Box>
   );

@@ -103,11 +103,11 @@ const SwapPage: React.FC = () => {
                 </Box>
               )}
             </Box>
-            {token1 && token2 && (
+          {token1 && token2 && (
               <Box className='wrapper' marginTop='32px'>
                 <LiquidityPools token1={token1} token2={token2} />
               </Box>
-            )}
+        )}  
           </Grid>
         </Grid>
       ) : (
@@ -161,7 +161,7 @@ const SwapPage: React.FC = () => {
               setShowChart={setShowChart}
               showTrades={showTrades}
               setShowTrades={setShowTrades}
-            />
+          />  
             {token1 && token2 && pairId && (
               <SwapProChartTrade
                 showChart={showChart}
@@ -173,6 +173,7 @@ const SwapPage: React.FC = () => {
                 transactions={transactions}
               />
             )}
+            
           </Box>
           {infoPos === 'right' && (
             <Box

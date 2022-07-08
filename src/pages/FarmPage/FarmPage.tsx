@@ -43,7 +43,7 @@ const FarmPage: React.FC = () => {
       text: t('lpMining'),
       onClick: () => setFarmIndex(GlobalConst.farmIndex.LPFARM_INDEX),
       condition: farmIndex === GlobalConst.farmIndex.LPFARM_INDEX,
-    }
+    },
   ];
 
   return (

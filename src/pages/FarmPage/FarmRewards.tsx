@@ -45,7 +45,7 @@ const FarmRewards: React.FC<{ farmIndex: number; bulkPairs: any }> = ({
         </Box>
         {farmData.rewardsUSD ? (
           <h6 className='weight-600'>
-          
+          {/*  ${farmData.rewardsUSD.toLocaleString()} / {t('day')}  */}
         </h6>  
         ) : (
           <Skeleton width='100%' height='28px' />
@@ -61,7 +61,7 @@ const FarmRewards: React.FC<{ farmIndex: number; bulkPairs: any }> = ({
         </Box>
         {farmData.stakingFees ? (
           <h6 className='weight-600'>
-          
+          {/*  ${farmData.stakingFees.toLocaleString()}  */}
         </h6>  
         ) : (
           <Skeleton width='100%' height='28px' />
@@ -83,6 +83,7 @@ const FarmRewards: React.FC<{ farmIndex: number; bulkPairs: any }> = ({
               <span className='text-secondary'>{t('rewardRate')}</span>
             </Box>
            <h6 className='weight-600'>
+            {/*  {dQuickRewardSum.toLocaleString()} dQuick / {t('day')}  */}
               </h6> 
           </Box>
           {getRewardsSection(true)}
